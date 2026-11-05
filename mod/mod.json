@@ -1,0 +1,13 @@
+{
+  "id": "auto-dst",
+  "name": "Auto DST",
+  "version": "1.0.0",
+  "hmgapi": ">=1.0.0",
+  "authors": ["Kyle"],
+  "license": "AGPL-3.0",
+  "description": "Turns the clock's Daylight Saving Time switch on and off by itself on the right dates (US/Canada or Europe rules), so the clock changes in spring and fall without a trip to Settings. It uses the same switch as Settings, Clock, Daylight Saving Time, and keeps that screen matching.",
+  "live": true,
+  "services": [
+    { "name": "dst", "script": "dst.sh", "user": "root", "restart": true, "start": "android" }
+  ]
+}

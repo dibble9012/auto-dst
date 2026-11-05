@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "settings": [
+    {
+      "key": "rule",
+      "type": "choice",
+      "default": "us",
+      "title": "Daylight saving rule",
+      "options": [
+        { "value": "us", "title": "US and Canada (2nd Sunday of March to 1st Sunday of November, 2 AM)" },
+        { "value": "eu", "title": "Europe (last Sunday of March to last Sunday of October, 01:00 UTC)" },
+        { "value": "never", "title": "Never (keep DST off, e.g. Arizona or Hawaii)" }
+      ],
+      "description": "The clock's time zone (Settings, Clock) stays as you set it; this only flips the Daylight Saving Time switch. Changes apply within a minute."
+    },
+    {
+      "key": "notify",
+      "type": "toggle",
+      "default": true,
+      "title": "Show a message when the clock changes",
+      "description": "A short pop-up saying the clock moved to daylight saving or standard time."
+    }
+  ]
+}
