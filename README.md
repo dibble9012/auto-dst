@@ -5,7 +5,7 @@ changes by itself in spring and fall.
 
 **[Download the latest release](https://github.com/dibble9012/auto-dst/releases/latest)**
 
-Tested on a 2023 Kia EV6 GT-Line (USA), firmware 260507.
+Tested on a 2023 Kia EV6 GT-Line (USA) and a 2023 Kia Niro Wave (USA), firmware 260507.
 
 ## Install
 

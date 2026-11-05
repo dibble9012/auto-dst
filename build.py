@@ -19,11 +19,11 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 MOD = os.path.join(HERE, "mod")
 DIST = os.path.join(HERE, "dist")
 META = "META-HMGAPI"
-# what NEMESIS's store shows as compatible: only what the mod was tested on. A glob of
-# ro.build.product, and the unit's /system/onebin folder name. mod.json has no "system",
+# what NEMESIS's store shows as compatible: only what the mod was tested on. Comma lists of
+# ro.build.product globs and of the unit's /system/onebin folder name. mod.json has no "system",
 # so HMG-API itself doesn't refuse other cars.
-TESTED_OS = "CVEV.USA.*.260507"
-TESTED_MODELS = "cvev_us"
+TESTED_OS = "CVEV.USA.*.260507,SG2EV.USA.*.260507"
+TESTED_MODELS = "cvev_us,sg2ev_us"
 
 
 def openssl(*args, data=None):
